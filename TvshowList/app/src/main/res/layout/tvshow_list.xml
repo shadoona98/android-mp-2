@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/ss"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@+id/textView5"
+        android:text="ss"
+        android:textColor="#FAF4FF" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="165dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/prisonbreak" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="37dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="name"
+        android:textColor="#F3C623"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="Rating:"
+        android:textColor="#BC6FF1" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="Seasons:"
+        android:textColor="#BC6FF1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/textView4"
+        android:text="rating"
+        android:textColor="#FAF4FF" />
+
+</RelativeLayout>
